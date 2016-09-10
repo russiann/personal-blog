@@ -1,5 +1,5 @@
 ---
-title: 'Drops: Javascript Reduce'
+title: '💧Drops: Javascript Reduce'
 date: 2016-09-10 10:24:46
 
 tags: drops
