@@ -100,8 +100,9 @@ let oldest = people.reduce(function (prev, curr) {
 // Com Arrow function
 const oldest = people.reduce((prev, curr) => (curr.age > prev.age) ? curr : prev )
 ```
-Você também pode ler a [Documentação do Reduce no MDN]( https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) para ir mais afundo
 
 Parabéns! Agora você sabe o que é e como usar o Reduce! 🤘🏻
+
+Você também pode ler a [Documentação do Reduce no MDN]( https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) para ir mais afundo
 
 <img src="https://i.giphy.com/7rj2ZgttvgomY.gif"/>
