@@ -4,8 +4,19 @@ date: 2016-09-11 11:40:44
 tags:
 ---
 <!--- Invisible Char: > < --->
+
+Para tabalhar com Javascript eficientemente, uma das primeiras coisas que você deve entender é o conceito de Escopo. As regras de escopo variam de linguagem em linguagem e esse artigo aborda especificamente o Javascript.
+
+<!-- more -->
+
 ## Scopes
-O escopo de uma variável determina em que partes do programa essa variável pode ser acessada. O JavaScript tem dois escopos: **global** e **local**.  Uma variável declarada fora de uma *definição de função* (dentro das **{}**) é uma **variável global**, e seu valor será acessível e modificável em todo o seu programa. Uma variável declarada dentro de uma definição de função é local. Por exemplo:
+O escopo de uma variável determina em que partes do programa essa variável pode ser acessada. O JavaScript tem dois escopos: **global** e **local**.
+
+Uma variável declarada fora de uma `function` pertence ao escopo **global**, portanto, ela se torna uma **variável global**, e seu valor será acessível e modificável em todo o seu programa.
+
+Toda `function` possui seu próprio escopo, e qualquer variável declarada dentro de uma `function`
+
+Uma variável declarada dentro de uma `function` pertence ao escope é local. Por exemplo:
 
 ```javascript
 var x = 10; // x é global
